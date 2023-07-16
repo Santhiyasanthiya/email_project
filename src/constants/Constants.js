@@ -9,6 +9,7 @@ export const VIEWS = {
     drafts: 'drafts'
 }
 
+
 export const EMPTY_TABS = {
     inbox: {
         heading: 'Your inbox is empty',

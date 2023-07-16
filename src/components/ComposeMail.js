@@ -109,7 +109,7 @@ const ComposeMail = ({ open, setOpenDrawer }) => {
 
         const payload = {
             to : data.to,
-            from : "hackathon2guvi@gmail.com",
+            from : "santhiya30032@gmail.com",
             subject : data.subject,
             body : data.body,
             date: new Date(),

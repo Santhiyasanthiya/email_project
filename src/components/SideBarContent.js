@@ -47,6 +47,7 @@ const SideBarContent = () => {
             <ComposeButton onClick={() => onComposeClick()}>
                 <CreateOutlined style={{ marginRight: 10 }} />Compose
             </ComposeButton>
+           <h5>zenemail2525@yopmail.com</h5>
             <List>
                 {
                     SIDEBAR_DATA.map(data => (

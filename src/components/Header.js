@@ -41,7 +41,7 @@ const  Header=({toggleDrawer}) =>{
     <Toolbar>
         <MenuIcon color="action" onClick={toggleDrawer} />
         <img src={gmailLogo} alt="logo" style={{ width: 110, marginLeft: 15 }} />
-    
+ 
         <SearchWrapper>
                     <Search color="action" />
                     <InputBase />
@@ -53,6 +53,7 @@ const  Header=({toggleDrawer}) =>{
                     <SettingsOutlined color="action" />
                     <AppsOutlined color="action" />
                     <AccountCircleOutlined color="action" />
+                 
                </OptionsWrapper>
     </Toolbar>
 </StyledAppBar>
